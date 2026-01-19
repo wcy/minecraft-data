@@ -867,6 +867,16 @@
     "versions": ["1.21.3", "latest"]
   },
   {
+    "name": "hasBlockActionSequence",
+    "description": "block_place, block_dig, and use_item packets contain a sequence number (1.19+)",
+    "versions": ["1.19", "latest"]
+  },
+  {
+    "name": "hasPlayerLoadedPacket",
+    "description": "Must send player_loaded packet after login/respawn to start the game",
+    "versions": ["1.21.4", "latest"]
+  },
+  {
     "name": "titleUsesLegacyPackets",
     "description": "title system uses legacy title packets",
     "versions": ["1.8", "1.17"]
